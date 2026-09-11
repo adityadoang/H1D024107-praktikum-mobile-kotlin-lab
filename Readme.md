@@ -1,4 +1,4 @@
-# Tugas Pertemuan 1 - Pemrograman Mobile
+# Tugas Pertemuan 2 - Pemrograman Mobile
 
 ## Data Mahasiswa
 **Nama:Aditya**
