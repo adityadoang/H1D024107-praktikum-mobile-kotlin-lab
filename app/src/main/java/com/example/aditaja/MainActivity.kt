@@ -13,14 +13,14 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.aditaja.ui.screen.BasicInfoScreen
 import com.example.aditaja.ui.screen.HubungiKamiScreen
-import com.example.aditaja.ui.theme.AditAjaTheme
+import com.example.aditaja.ui.theme.JualanTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            AditAjaTheme {
+            JualanTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
