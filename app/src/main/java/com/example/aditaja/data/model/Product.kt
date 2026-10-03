@@ -2,11 +2,11 @@ package com.example.aditaja.data.model
 
 data class Product(
     val id: Int,
-    val categoryId: Int,
-    val category: Category?,
+    val category_id: Int,
+    val category: Category? = null,
     val name: String,
-    val description: String?,
+    val description: String? = null,
     val price: Double,
     val stock: Int,
-    val img: Int,
+    val img: String
 )
